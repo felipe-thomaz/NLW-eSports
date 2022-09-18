@@ -14,7 +14,7 @@
   --font-color-text: #A1A1AA;
 }
 body{
-  background-image: url(/assets/bg.jpg);
+  background-image: url(./assets/bg.jpg);
   background-position:top center;
   background-size: 100% auto;
   background-repeat: no-repeat;
