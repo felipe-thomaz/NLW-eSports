@@ -24,18 +24,24 @@ body *{
   font-family: var(--font);
   line-height: 160%;
 }
-.avatar{
-  text-align: center;
+.avatar-border{
+  padding-top: 2rem;
   margin-bottom: 2rem;
+  width: 7.5rem; /* 7.5 x 16 = 120 px */
+  margin: auto;
+  background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+  display: flex;
+  border-radius:50%; 
+  padding: .25rem;/* 4px */
 }
 .img-avatar{
-  width: 12.5rem; /* 12.5 x 16 = 200 px */
+  width: 100%;
   border-radius: 50%;
 }
 main{
   max-width: 36.25rem; /* 36.25 x 16 = 580 px */
   width: 90%;
-  margin: auto;
+  margin: 2rem auto;
 
   display: grid;
   gap: 1.5rem;
@@ -74,5 +80,6 @@ section ul{
 .channel-list img{
   width: 4.375rem; /* 70 px */
   height: 4.375rem; /* 70 px */
-  border-radius: 50%
+  border-radius: 50%;
+  border: 1px solid var(--roxo-claro);
 }
