@@ -1,9 +1,66 @@
 :root{
+  /* COLORS */
   --roxo-claro: #443E54;
   --roxo-escuro: #2A2634;
   --rosa-claro: #FA41FE;
   --rosa-escuro: #9A35FF;
   --vermelho-yt: #F40000;
-  --azul-tt: 2871FF;
-  
+  --azul-tt: #2871FF;
+  --bg-color: #121214;
+
+  /* FONTS */
+  --font: 'Inter', sans-serif;
+  --font-color-title: #FFFFFF;
+  --font-color-text: #A1A1AA;
+}
+body{
+  background-image: url(/assets/bg.jpg);
+  background-position:top center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-color: var(--bg-color);
+}
+body *{
+  font-family: var(--font);
+  line-height: 160%;
+}
+.avatar{
+  text-align: center;
+}
+.img-avatar{
+  width: 12.5rem; /* 12.5 x 16 = 200 px */
+  border-radius: 50%;
+}
+main{
+  max-width: 36.25rem; /* 36.25 x 16 = 580 px */
+  width: 90%;
+  margin: auto;
+
+  display: grid;
+  gap: 1.5rem;
+}
+.title{
+  font-size: 2rem;
+  color: var(--font-color-title);
+}
+.text{
+  color: var(--font-color-text);
+}
+section ul{
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1.5rem;
+
+}
+.game-list img{ 
+  width: 5.625rem; /* 90 px */
+  height: 7.5rem; /* 120 px */
+  border-radius: .5rem;
+}
+.channel-list img{
+  width: 4.375rem; /* 70 px */
+  height: 4.375rem; /* 70 px */
+  border-radius: 50%
 }
